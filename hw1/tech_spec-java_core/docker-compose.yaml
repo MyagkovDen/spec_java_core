@@ -1,0 +1,15 @@
+version: '2.22.0'
+services:
+  my-app1:
+    image: openjdk:11
+    command: javac -sourcepath /app/src -d /app/out /app/src/com/test1/Main.java
+    volumes:
+      - ./src:/app/src
+      - ./bin:/app/out
+
+  my-app2:
+    image: openjdk:11
+    command: java -classpath /app/out com/test1/Main && bash
+    stdin_open: true
+    volumes:
+      - ./bin:/app/out
