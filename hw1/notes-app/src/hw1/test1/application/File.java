@@ -1,4 +1,4 @@
-package com.test1.application;
+package hw1.test1.application;
 
 import java.io.*;
 

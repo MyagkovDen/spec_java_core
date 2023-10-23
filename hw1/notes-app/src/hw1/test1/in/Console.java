@@ -1,7 +1,7 @@
-package com.test1.in;
+package hw1.test1.in;
 
-import com.test1.application.File;
-import com.test1.application.Note;
+import hw1.test1.application.File;
+import hw1.test1.application.Note;
 
 import java.util.Scanner;
 

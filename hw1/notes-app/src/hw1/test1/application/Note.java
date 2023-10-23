@@ -1,4 +1,4 @@
-package com.test1.application;
+package hw1.test1.application;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -36,7 +36,7 @@ public class Note {
                 text.append("\n");
             }
             Note note = new Note(title, text);
-            com.test1.application.File file = new File();
+            hw1.test1.application.File file = new File();
             file.addNote(note);
         } catch (IOException e) {
             System.out.println(e.getMessage());

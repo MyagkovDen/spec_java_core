@@ -1,6 +1,6 @@
-package com.test1;
+package hw1.test1;
 
-import com.test1.in.Console;
+import hw1.test1.in.Console;
 
 public class Main {
     public static void main(String[] args) {
